@@ -1,0 +1,42 @@
+{
+  "name": "NINE - Disaster Tactical Secure Messaging",
+  "short_name": "NINE",
+  "description": "Offline-first mesh communication platform for disaster relief and tactical use",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["utilities", "productivity"],
+  "shortcuts": [
+    {
+      "name": "New Broadcast",
+      "short_name": "Broadcast",
+      "description": "Create a new emergency broadcast",
+      "url": "/?action=broadcast",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Encrypted Message",
+      "short_name": "E2E",
+      "description": "Send encrypted message to admin",
+      "url": "/?action=e2e",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
+
